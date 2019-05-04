@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    color: #efd0cd;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #09194e;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    height: 24px;   
+    width: 100%;
+    border-radius: 4px;
+    background-color: #093a86;
+    z-index: 999;
+}
+
+nav a {
+    color: #efd0cd;
+    text-decoration: none;
+    transition: 1s;
+}
+
+nav a:hover {
+    color: #e13a42;
+}
+
+nav img {
+    width: auto;
+    height: 20px;
+}
+
+.mainContent {
+    position: absolute;
+    top: 24px;
+    height: calc(300% - 72px);
+    width: 100%;
+    text-align: center;
+}
+
+h1,h3 {
+    font-family: 'Sarabun', sans-serif;
+}
+
+#teamName {
+    height: calc(100% / 3);
+}
+
+#teamName h1 {
+    position: relative;
+    top: 5%;
+}
+
+#teamPeople {
+    height: calc(100% / 3);
+    padding-top: 24px;
+}
+
+#teamPeople h3 {
+    position: relative;
+    top: 5%;
+}
+
+#teamPeople ul, #teamPeople li {
+    position: relative;
+    top: 10%;
+    list-style: none;
+}
+
+#docs {
+    height: calc(100% / 3);
+}
+
+#docs h3 {
+    position: relative;
+    top: 5%;
+}
+.coolimg1,
+.coolimg2,
+.coolimg3 {
+    position: absolute;
+    width: 100%;
+    height: 20%;
+}
+
+.coolimg1 {
+    top: 30vh;
+}
+
+.coolimg2 {
+    top: 135vh;
+}
+
+.coolimg3 {
+    top: 230vh;
+}
+
+.coolimg1 img,
+.coolimg2 img,
+.coolimg3 img {
+    height: 100%;
+    width: auto;
+}
+
+@media only screen and (max-width: 768px) {
+    .coolimg1 img,
+    .coolimg2 img,
+    .coolimg3 img {
+        width: 90%;
+        height: auto;
+}
+}
