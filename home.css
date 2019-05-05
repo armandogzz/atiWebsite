@@ -72,6 +72,7 @@ h1,h3 {
     position: relative;
     top: 10%;
     list-style: none;
+    padding: 0;
 }
 
 #docs {
@@ -82,6 +83,20 @@ h1,h3 {
     position: relative;
     top: 5%;
 }
+
+#docs ul, #docs ul li a {
+    position: relative;
+    top: 15%;
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+}
+
+#docs ul li a:hover {
+    color: #e13a42;
+    transition: 1s;
+}
+
 .coolimg1,
 .coolimg2,
 .coolimg3 {
