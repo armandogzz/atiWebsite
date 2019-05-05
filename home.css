@@ -58,9 +58,15 @@ h1,h3 {
     top: 5%;
 }
 
+#teamName h2 {
+    position: relative;
+    top: 10%;
+}
+
 #teamPeople {
     height: calc(100% / 3);
     padding-top: 24px;
+    background-color: #2C3A69;
 }
 
 #teamPeople h3 {
@@ -130,5 +136,16 @@ h1,h3 {
     .coolimg3 img {
         width: 90%;
         height: auto;
+}
+}
+
+@media only screen and (max-height: 600px) {
+    .coolimg1 img,
+    .coolimg2 img,
+    .coolimg3 img {
+        width: auto;
+        height: 40%;
+        position: relative;
+        top: 45%
 }
 }
